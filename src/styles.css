@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.big-text {
+  font-size: 25px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.bd {
+  border: 1px solid gray;
+  padding: 4px;
+}
+
+.card-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.card {
+  @apply bg-base-100;
+}
